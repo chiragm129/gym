@@ -1,0 +1,129 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bgg.jpg');
+}
+
+.left {
+    position: absolute;
+    /*stop when we scroll*/
+    left: 60px;
+    /*to move left*/
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 75px;
+    filter: invert(100%);
+    /*to change img color white to black& black to white*/
+}
+
+.left div {
+    text-align: center;
+    line-height: 18px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 29px auto;
+    /*to move center above 2 necessary*/
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    /*stop when we scroll*/
+    right: 34px;
+    /*to move left*/
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+    /*inline bhi and width height change*/
+}
+
+.navbar li {
+    display: inline-block;
+    /*to wrap in single line*/
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    /*to remove underline*/
+    padding: 24px 12px;
+    /*to space between word*/
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    /*to point by hand cursor sign*/
+    font-family: 'Baloo Bhai 2', cursive;
+    /*from google font.com*/
+
+}
+
+.btn:hover {
+    background-color: rgb(70, 52, 52);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 75px 65px;
+    padding: 52px;
+    width: 33%;
+    border-radius: 12px;
+
+}
+
+.container h1 {
+    text-align: center;
+    /*tomove h1 in center*/
+
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    /*to move submit button in center*/
+    padding: 0px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    padding: 6px;
+    width: 50%;
+    border: 2px solid black;
+    margin: 7px auto;
+    /*cooz we use here display & width*/
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+}
